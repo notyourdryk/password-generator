@@ -1,0 +1,96 @@
+:root {}
+
+.app {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.primary-field {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    box-sizing: border-box;
+    border: 2px solid #eeeeee;
+    margin-bottom: 8px;
+}
+
+.password-field {
+    font-size: 1.7em;
+    width: 100%;
+    border: none;
+    border-top-left-radius: 8px;
+}
+
+.primary-field > button {
+    border: none;
+    cursor: pointer;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.second-col {
+    text-align: justify;
+    margin-left: 8px;
+}
+
+.first-col {
+    margin-left: 24px;
+    flex-direction: row;
+}
+
+.first-col .number-input {
+    font-size: 1.5em;
+    width: 64px;
+    border-radius: 5px;
+    border: 2px solid #eeeeee;
+}
+
+.first-col input[type="range"] {
+    display: block;
+    width: 90%;
+    box-sizing: border-box;
+    margin: 0 16px;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.input-field > label {
+    cursor: pointer;
+}
+
+.password-configuration {
+    display: grid;
+    grid-template-columns: 50% 1fr 1fr;
+    padding: 16px 0 0;
+    box-sizing: border-box;
+    border: 2px solid #eeeeee;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+.submit-button {
+    font-size: 1.7em;
+    cursor: pointer;
+    grid-column: 1/4;
+    margin: 12px auto 0;
+    width: 100%;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    box-sizing: border-box;
+    border: none;
+}
